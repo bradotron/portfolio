@@ -1,0 +1,16 @@
+/* Mobile First */
+
+header {
+  color: #FFFFFF;
+  background-color: #00684E;
+  width: 100%
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #007f5D;
+}
