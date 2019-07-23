@@ -9,8 +9,27 @@ header {
 nav a {
   text-decoration: none;
   color: white;
+  padding: .5rem;
+  margin: .2rem;
 }
 
 nav a:hover {
   background-color: #007f5D;
+}
+
+.avatar {
+  height: 3rem;
+  border-radius: 50%;
+}
+
+/* container classes */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* color helpers */
+.bg-green {
+  background-color: #00684E;
 }
