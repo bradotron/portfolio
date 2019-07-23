@@ -1,35 +1,69 @@
 /* Mobile First */
 
 header {
-  color: #FFFFFF;
-  background-color: #00684E;
-  width: 100%
+	color: #ffffff;
+	background-color: #00684e;
+	width: 100%;
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
-  padding: .5rem;
-  margin: .2rem;
+	text-decoration: none;
+	color: white;
+	padding: 0.5rem;
 }
 
 nav a:hover {
-  background-color: #007f5D;
+	background-color: #007f5d;
 }
 
 .avatar {
-  height: 3rem;
+	height: 3rem;
   border-radius: 50%;
+  margin-bottom: 0.3rem;
 }
 
 /* container classes */
 .flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero {
+  padding: 2rem .5rem;
+}
+
+/* text classes */
+.light-text {
+  color: white;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* margin-helpers */
+.mb-2 {
+  margin-bottom: 2rem;
 }
 
 /* color helpers */
 .bg-green {
-  background-color: #00684E;
+	background-color: #00684e;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
