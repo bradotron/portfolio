@@ -47,6 +47,11 @@ nav a:hover {
   margin-bottom: 2rem;
 }
 
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 /* color helpers */
 .bg-green {
 	background-color: #00684e;
