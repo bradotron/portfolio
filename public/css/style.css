@@ -23,10 +23,25 @@ nav a:hover {
 }
 
 /* container classes */
+
+/* flex box with horizontally and vertically centered items */
 .flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.project-box {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.3rem;
+  
+}
+
+.project-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero {
@@ -42,7 +57,37 @@ nav a:hover {
   text-align: justify;
 }
 
+.project-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 1000;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  text-align: justify;
+  margin-bottom: 0.5rem;
+}
+
+.project-skills {
+  color: #555555;
+  font-size: 0.8rem;
+}
+
+/* image classes */
+.img-project {
+  width: 100%;
+  border: 1px;
+  border-color: #888888;
+}
+
 /* margin-helpers */
+.mb-0 {
+  margin-bottom: 0.5rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
 .mb-2 {
   margin-bottom: 2rem;
 }
