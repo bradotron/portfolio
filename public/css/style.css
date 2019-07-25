@@ -18,8 +18,8 @@ nav a:hover {
 
 .avatar {
 	height: 3rem;
-  border-radius: 50%;
-  margin-bottom: 0.3rem;
+	border-radius: 50%;
+	margin-bottom: 0.3rem;
 }
 
 /* container classes */
@@ -32,69 +32,69 @@ nav a:hover {
 }
 
 .project-box {
-  width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0.3rem;
-  
+  text-align: center;
 }
 
 .project-content {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .hero {
-  padding: 2rem .5rem;
+	padding: 2rem 0.5rem;
 }
 
 /* text classes */
 .light-text {
-  color: white;
+	color: white;
 }
 
 .justify {
-  text-align: justify;
+	text-align: justify;
 }
 
 .project-title {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 1000;
-  margin-bottom: 0.5rem;
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 1000;
+	margin-bottom: 0.5rem;
 }
 
 .project-description {
-  text-align: justify;
-  margin-bottom: 0.5rem;
+	text-align: justify;
+	margin-bottom: 0.5rem;
 }
 
 .project-skills {
-  color: #555555;
-  font-size: 0.8rem;
+	color: #555555;
+	font-size: 0.8rem;
 }
 
 /* image classes */
 .img-project {
-  width: 100%;
-  border: 1px;
-  border-color: #888888;
+  margin-top: 0.5rem;
+  max-height:200px;
+	border: 1px solid #bbbbbb;
 }
 
 /* margin-helpers */
 .mb-0 {
-  margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 .mb-1 {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 .mb-2 {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .mx-1 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 /* color helpers */
@@ -104,6 +104,18 @@ nav a:hover {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+	/* first breakpoint */
+	.hero-content {
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.project-box {
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -112,6 +124,13 @@ nav a:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	.portfolio-content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
