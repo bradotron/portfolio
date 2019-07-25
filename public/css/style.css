@@ -16,11 +16,6 @@ nav a:hover {
 	background-color: #007f5d;
 }
 
-.avatar {
-	height: 3rem;
-	border-radius: 50%;
-	margin-bottom: 0.3rem;
-}
 
 /* container classes */
 
@@ -33,6 +28,7 @@ nav a:hover {
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
+  padding-bottom: 1rem;
 }
 /* flex box with horizontally and vertically centered items */
 .flex {
@@ -56,6 +52,13 @@ nav a:hover {
 
 .hero {
 	padding: 2rem 0.5rem;
+}
+
+#contact {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* text classes */
@@ -85,6 +88,13 @@ nav a:hover {
 }
 
 /* image classes */
+
+.avatar {
+	height: 3rem;
+	border-radius: 50%;
+	margin-bottom: 0.3rem;
+}
+
 .img-project {
   margin-top: 0.5rem;
   max-height:200px;
