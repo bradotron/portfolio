@@ -24,6 +24,16 @@ nav a:hover {
 
 /* container classes */
 
+/* content wrapper grid to support sticky footer */
+.content {
+  display: grid;
+  grid-auto-rows: 1fr auto;
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 /* flex box with horizontally and vertically centered items */
 .flex {
 	display: flex;
@@ -102,6 +112,7 @@ nav a:hover {
 	background-color: #00684e;
 }
 
+/* media queries take effect as viewport size grows past each breakpoint */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	/* first breakpoint */
@@ -119,8 +130,8 @@ nav a:hover {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
+/* @media (min-width: 768px) {
+} */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -134,5 +145,5 @@ nav a:hover {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+/* @media (min-width: 1200px) {
+} */
