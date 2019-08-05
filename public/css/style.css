@@ -1,4 +1,8 @@
 /* Mobile First */
+html {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 header {
 	color: #ffffff;
@@ -6,16 +10,19 @@ header {
 	width: 100%;
 }
 
-nav a {
+.header-nav a {
 	text-decoration: none;
 	color: white;
 	padding: 0.5rem;
 }
 
-nav a:hover {
+.header-nav a:hover {
 	background-color: #007f5d;
 }
 
+.project-nav {
+	padding-bottom: 0.5rem;
+}
 
 /* container classes */
 
@@ -85,6 +92,7 @@ nav a:hover {
 .project-skills {
 	color: #555555;
 	font-size: 0.8rem;
+	margin-bottom: 0.5rem;
 }
 
 /* image classes */
