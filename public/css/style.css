@@ -35,7 +35,7 @@ header {
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 /* flex box with horizontally and vertically centered items */
 .flex {
