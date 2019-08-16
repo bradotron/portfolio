@@ -31,9 +31,16 @@ header {
 
 .icon-skill {
 	height: 2rem;
+	margin: 0 auto;
 }
-/* container classes */
 
+/* display helper classes */
+.block {
+	display: block;
+}
+
+
+/* container classes */
 /* content wrapper grid to support sticky footer */
 .content {
 	display: grid;
@@ -69,8 +76,17 @@ header {
 
 .skills-content {
 	width: 90%;
+	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skill {
+	margin: 0.5rem;
 }
 
 .header-nav {
